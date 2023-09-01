@@ -40,7 +40,7 @@ const Slide = () => {
                     <p className="font-bold text-3xl text-[#FFBD39]">Hello!</p>
                     {slides[count].h2}
                     <h3 className="font-bold text-3xl mt-3">{slides[count].h3}</h3>
-                    <div className="flex gap-6 font-bold mt-3 justify-center">
+                    <div className="flex gap-6 font-bold mt-3 justify-center md:justify-start">
                         <button className="bg-[#FFBD39] p-5 rounded-full">HIRE ME</button>
                         <button className="bg-[black] text-[white] p-5 rounded-full">MY WORKS</button>
                     </div>
