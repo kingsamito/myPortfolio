@@ -35,7 +35,7 @@ const Slide = () => {
 
     return (
         <>
-            <div className="w-[90%] ml-auto mr-auto mt-[100px] flex items-center  py-3 relative lg:px-10 lg:gap-10">
+            <div className="w-[90%] ml-auto mr-auto mt-[100px] flex items-center  py-3 relative lg:px-10 lg:gap-10 h-screen">
                 <div className="text-center absolute z-10 w-full top-[400px] md:w-1/2 md:relative md:top-auto md:text-left">
                     <p className="font-bold text-3xl">Hello!</p>
                     {slides[count].h2}
