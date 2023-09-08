@@ -15,13 +15,13 @@ const Navbar = () => {
                 </div>
                 <div className={`${displaystyle1} ${displaystyle2}`}>
                     <div className="flex flex-col md:flex-row ">
-                        <Link to="home" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">Home</Link>
-                        <Link to="about" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">About</Link>
-                        <Link to="resume" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">Resume</Link>
-                        {/*<Link to="services" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">Services</Link>*/}
-                        <Link to="skills" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">Skills</Link>
-                        <Link to="projects" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">Projects</Link>
-                        <Link to="contact" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:text-[white] hover:underline decoration-2">Contact</Link>
+                        <Link to="home" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">Home</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">About</Link>
+                        <Link to="resume" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">Resume</Link>
+                        {/*<Link to="services" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">Services</Link>*/}
+                        <Link to="skills" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">Skills</Link>
+                        <Link to="projects" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">Projects</Link>
+                        <Link to="contact" spy={true} smooth={true} offset={-80} duration={500} className="p-3 hover:underline decoration-2">Contact</Link>
                     </div>
                 </div>
                 <div className="md:hidden" onClick={() => setDisplay(!display)}>
