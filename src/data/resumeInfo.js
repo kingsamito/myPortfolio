@@ -1,44 +1,64 @@
-export default [
+const resumeInfo = [
     {
-        id: 1,
-        year: "2023 - current",
+        year: "Feb 2023 - current",
+        role: "Frontend Developer | IT Specialist",
+        company: "Alpha Morgan Capital Mangers Limited",
+        details: "Aided in the management and upkeep of technology systems within the IT department while providing ongoing support to staff by addressing technical issues and troubleshooting problems to ensure the seamless functionality of technology systems for daily operations. Additionally, contributed to the conceptualization, planning, and execution of a visually appealing and user-friendly website that aligns with departmental objectives and brand identity.",
+        location:"Lagos"
+    },
+    {
+        year: "Mar 2023 - Jul 2024",
         role: "Frontend Developer",
         company: "Aide Solutions",
-        details: "Develop and implement myFerry, a platform to book a ride and get to your destination by sea Developed functionality for both desktop and mobile platforms using ReactJs, ReactNative, and CSS."
+        details: "Develop user interfaces and experiences for web applications by implementing responsive design across various screen sizes and devices. Integrates with backend APIs to display and interact with data, while collaborating closely with full-stack developers, backend developers, and product teams.",
+        location:"Lagos"
     },
     {
-        id: 2,
-        year: "2023 - current",
-        role: "Frontend Developer NYSC",
-        company: "Alpha Morgan Capital Mangers Limited",
-        details: "Developed a client portal that allows clients to access information relating to projects and services."
-    },
-    {
-        id: 3,
         year: "2021 - 2022",
         role: "Coding Tutor",
         company: "Crawford University",
-        details: "Offered tutorial services to students in order to support their academic work in computer programming"
+        details: "Offered tutorial services to students to enhance their understanding of computer programming, delivering engaging programming exercises that fostered enthusiasm in the classroom. Developed websites using HTML, CSS, and jQuery, while providing backend web development services with SQL and PHP.",
+        location:"Ogun"
     },
     {
-        id: 4,
-        year: "2021",
+        year: "Jun 2021 - Nov 2021",
         role: "IT Intern",
         company: "Paints And Coatings Manufacturers Nigeria Ltd",
-        details: "Gave support and help for IT projects, network troubleshooting and offered patches to help with problem"
+        details: "Provided support for team-based IT projects and offered advice on alternatives for hardware, software, and network troubleshooting, implementing patches for problem resolution. Aided in the management and upkeep of technology systems within the IT department, utilizing remote access software for software upgrades and system patches on field laptops. Installed drivers, virus protection, and application upgrades, while also replacing damaged parts and enhancing office equipment.",
+        location:"Lagos"
+    },
+    
+]
+
+export const cert = [
+    {
+        year: "2024",
+        role: "Meta Front-End Developer",
+        company: "Coursera",
+        details: "",
+        location:"Lagos"
     },
     {
-        id: 5,
         year: "2021",
-        role: "Web Development & Python Programming",
+        role: "The Python Programming A-Z Definitive Diploma",
         company: "Udemy",
-        details: ""
+        details: "",
+        location:"Lagos"
     },
     {
-        id: 6,
+        year: "2021",
+        role: "Responsive Web Development: 4 courses in 1",
+        company: "Udemy",
+        details: "",
+        location:"Lagos"
+    },
+    {
         year: "2018 - 2022",
         role: "Bachelor Of Science: Computer Science",
         company: "Crawford University",
-        details: ""
+        details: "",
+        location:"Ogun"
     },
 ]
+
+export default resumeInfo;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import sam from "../assets/sam.jpeg"
-import sam1 from "../assets/sam1.jpeg"
+import sam from "../assets/IMG_1693-removebg.png"
+import sam1 from "../assets/IMG_3844-removebg.png"
 
 const Slide = () => {
     const slides = [
@@ -35,7 +35,7 @@ const Slide = () => {
 
     return (
         <>
-            <div className="w-[90%] ml-auto mr-auto mt-[100px] flex items-center  py-3 relative lg:px-10 lg:gap-10 h-screen">
+            <div className="w-[90%] ml-auto mr-auto flex items-center  pb-3 relative lg:px-10 lg:gap-10 h-screen">
                 <div className="text-center absolute z-10 w-full top-[400px] md:w-1/2 md:relative md:top-auto md:text-left">
                     <p className="font-bold text-3xl">Hello!</p>
                     {slides[count].h2}
@@ -46,7 +46,8 @@ const Slide = () => {
                     </div>
                 </div>
                 <div className="absolute top-0 md:w-1/2 md:relative md:top-auto">
-                    <img src={slides[count].url} alt='sam' className="h-[400px] xl:h-screen" />
+                    <img src={slides[count].url} alt='sam' className="h-[400px] relative z-3 xl:h-screen" />
+                    <div className="bg-white rounded-[50%] absolute top-[130px] w-[100%] h-[100%]"></div>
                 </div>
             </div>
         </>

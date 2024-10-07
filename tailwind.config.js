@@ -4,7 +4,24 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '2xl': '1600px',
+      },
+      fontFamily: {
+        'playfair': ['"Playfair Display"'],
+        'nunito': ['Nunito']
+      },
+      animation: {
+        blink: 'blink 1.5s infinite',
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
+        },
+      },
+    }
   },
   plugins: [],
 }

@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .hero-right-shape {
+        clip-path: polygon(6% 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .hero-left-shape {
+        clip-path: polygon(0% -217%, 0% 100%, 100% 100%);
+    }
+    .hero-abs-shape {
+        clip-path: polygon(49% 100%, 100% -15%, 100% 100%);
+    }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
