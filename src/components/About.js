@@ -12,29 +12,29 @@ const About = () => {
             <div className="md:w-[400px] lg:w-[500px] lg:mx-0 md:mx-auto">
                 <img src={sam1} alt='sam' className="" />
             </div>
-            <div className="p-[20px] w-full lg:w-1/2 md:relative md:text-left md:p-0 md:px-[40px] font-nunito">
-                <h3 className="font-bold text-[48px] font-playfair leading-[130%] lg:text-left md:text-center">About Me</h3>
-                <p className="text-justify font-[24px] leading-[150%]">Dedicated IT professional with a strong foundation in technology and problem-solving. Experienced in developing and implementing innovative solutions that enhance efficiency and user experience.Adept at collaborating with diverse teams to achieve project goals and deliver high-quality results. Passionate about continuous learning and staying current with industry trends to drive technological advancements.</p>
-                <table className="w-full md:w-[70%] mt-[20px]">
+            <div className="p-[20px] w-full lg:w-1/2 md:relative md:text-left md:p-0 font-sora">
+                <h3 className="font-bold text-[40px] font-sora leading-[130%] lg:text-left md:text-center">About Me</h3>
+                <p className="text-justify text-[20px] leading-[150%]">Dedicated IT professional with a strong foundation in technology and problem-solving. Experienced in developing and implementing innovative solutions that enhance efficiency and user experience.Adept at collaborating with diverse teams to achieve project goals and deliver high-quality results. Passionate about continuous learning and staying current with industry trends to drive technological advancements.</p>
+                <table className="w-full md:w-[90%] mt-[20px]">
                     <tr>
-                        <td className="font-bold text-[17px] pb-3">Name: </td>
-                        <td className="pb-3">Usikpedo Samuel</td>
+                        <td className="font-bold text-[20px] pb-3">Name: </td>
+                        <td className="pb-3 text-[20px]">Usikpedo Samuel</td>
                     </tr>
                     <tr>
-                        <td className="font-bold text-[17px] pb-3">Date of birth: </td>
-                        <td className="pb-3">June 23</td>
+                        <td className="font-bold text-[20px] pb-3">Date of birth: </td>
+                        <td className="pb-3 text-[20px]">June 23</td>
                     </tr>
                     <tr>
-                        <td className="font-bold text-[17px] pb-3">Address: </td>
-                        <td className="pb-3">Lagos, Nigeria</td>
+                        <td className="font-bold text-[20px] pb-3">Address: </td>
+                        <td className="pb-3 text-[20px]">Lagos, Nigeria</td>
                     </tr>
                     <tr>
-                        <td className="font-bold text-[17px] pb-3">Email: </td>
-                        <td className="pb-3">usikpedosamuel@gmail.com</td>
+                        <td className="font-bold text-[20px] pb-3">Email: </td>
+                        <td className="pb-3 text-[20px]">usikpedosamuel@gmail.com</td>
                     </tr>
                     <tr>
-                        <td className="font-bold text-[17px] pb-3">Phone: </td>
-                        <td className="pb-3">+234 814-884-2010</td>
+                        <td className="font-bold text-[20px] pb-3">Phone: </td>
+                        <td className="pb-3 text-[20px]">+234 814-884-2010</td>
                     </tr>
                 </table>
 

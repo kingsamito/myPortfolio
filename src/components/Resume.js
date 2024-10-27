@@ -36,7 +36,7 @@ const Resume = () => {
     })
     return (
         <section 
-            id="resume" className="relative w-3/4 m-auto pt-[40px] md:py-10">
+            id="resume" className="relative w-3/4 m-auto pt-[40px] md:py-10 font-sora">
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -51,7 +51,7 @@ const Resume = () => {
             <div className="text-center">
                 <h3 className="font-bold md:text-3xl text-2xl">Certifications & Education</h3>
             </div>
-            <div className="my-[20px] md:grid lg:grid-cols-2 md:gap-4">
+            <div className="my-[20px] md:grid lg:grid-cols-2 md:gap-4 font-sora">
                 {certDetail}
             </div>
         </section>

@@ -54,7 +54,7 @@ const Projects = () => {
 
     return (
         <section
-            id="projects" className="relative mx-[50px] mt-[40px] md:mt-0">
+            id="projects" className="relative mx-[50px] mt-[40px] md:mt-0 font-sora">
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}

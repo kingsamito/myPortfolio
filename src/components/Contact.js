@@ -13,7 +13,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "linear" }}
             viewport={{ amount: 0.1 }}
-            id="contact" className="relative mx-[50px] lg:py-[100px] py-[50px]">
+            id="contact" className="relative mx-[50px] lg:py-[100px] py-[50px] font-sora">
             <div className="items-center flex flex-col gap-4 mb-5">
                 <h3 className="font-bold md:text-5xl text-4xl">Contact</h3>
                 <p className="font-medium lg:text-2xl md:text-xl md:text-left text-center">Any question or remarks? Just write us a message!</p>

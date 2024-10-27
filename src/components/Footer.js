@@ -2,7 +2,7 @@ import arrow from "../assets/arrow.png"
 import { Link } from 'react-scroll'
 const Footer = () => {
     return (
-        <footer className="relative bg-[#D7D7D7] p-[50px]">
+        <footer className="relative bg-[#D7D7D7] p-[50px] font-sora">
             <div className="my-[20px]">
                 <div className="grid lg:grid-cols-3 gap-5">
                     <div className="flex flex-col bg-[rgba(0,0,0,0.19)] p-5 shadow-xl">

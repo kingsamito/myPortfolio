@@ -10,7 +10,8 @@ module.exports = {
       },
       fontFamily: {
         'playfair': ['"Playfair Display"'],
-        'nunito': ['Nunito']
+        'nunito': ['Nunito'],
+        'sora': ['Sora']
       },
       animation: {
         blink: 'blink 1.5s infinite',
