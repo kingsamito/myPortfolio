@@ -10,7 +10,7 @@ const projects = [
         name: "AK-JODEM",
         details: "We are a multi-sectorial company operating in various industries including Real estate, Agriculture, Logistics, Oil, and Gas. Our commitment to excellence and innovation has earned us a reputation as a leader in these sectors.",
         img: "akjodem.png",
-        link: "https://ak-jodem-real-estate.vercel.app/",
+        link: "ak-jodem-real-estate.vercel.app/",
         status:"Ongoing"
     },
     {
@@ -25,14 +25,14 @@ const projects = [
         name: "Astral International College",
         details: "The Astral International College is a powerful tool that enhances the educational experience by making tasks more streamlined, fostering communication, and offering easy access to important resources.",
         img: "astral.png",
-        link: "https://astralinternationalcollege.vercel.app/",
+        link: "astralinternationalcollege.vercel.app/",
         status:"Ongoing"
     },
     {
         name: "Girly Wigs",
         details: "Girly Wigs is a name that stands out for offering an exceptional selection of wigs designed for women of all tastes and styles.",
         img: "girlywigs.png",
-        link: "https://girly-wigs-website-next-js.vercel.app/",
+        link: "girly-wigs-website-next-js.vercel.app/",
         scroll: true,
         status:"Ongoing"
     },
@@ -40,7 +40,7 @@ const projects = [
         name: "Mup Life Solutions",
         details: "MUP Life Solutions is a diversified company offering a wide range of services designed to enhance lives and support businesses",
         img: "muplife.png",
-        link: "https://muplifesolutions.org/",
+        link: "muplifesolutions.org/",
         scroll: true,
         status:"Completed"
     },
@@ -48,7 +48,7 @@ const projects = [
         name: "Forex Terminators",
         details: "FXT is your one stop center for forex tutorship and mentorship. Our goal is to empower, educate and build a community for forex traders across the globe. We aim to make quality trading education accessible to everyone. ",
         img: "forexterminators.png",
-        link: "https://forexterminators.com",
+        link: "forexterminators.com",
         scroll: true,
         /* scrollPercent:"89%" */
         status:"Completed"
@@ -57,7 +57,7 @@ const projects = [
         name: "The Engraced Foundation",
         details: "The Engraced Foundation is dedicated to advancing the Christian faith through worship, compassionate charitable activities, and impactful community engagement. At The Engraced Foundation, we welcome everyone to join us in worship, service, and community building.",
         img: "theengracedfoundation.png",
-        link: "https://theengracedfoundation.org/",
+        link: "theengracedfoundation.org/",
         scroll: true,
         status:"Completed"
     },
