@@ -40,10 +40,12 @@ const Projects = () => {
                     <h1 className="capitalize font-bold md:text-[24px] flex items-center justify-between">{item.name} <span className="text-[12px] animate-blink w-[10px] h-[10px] bg-green-600 rounded-full"></span></h1>
                     <p className="text-justify">{item.details}</p>
                     <div className="flex justify-between items-center mt-auto">
-                        <a href={`https://${item.link}`}>
+                        <a href={`https://${item.link}`} className={item.link && item.link !== "#" ? "" : " opacity-50"}>
                             <button
-                                className={`bg-[black] text-white text-[12px] p-2 rounded-md font-extrabold uppercase transition-opacity duration-500 flex items-center gap-1`}
-                            >
+                                className={`bg-[black] text-white text-[12px] p-2 rounded-md font-extrabold uppercase transition-opacity duration-500 flex items-center gap-1 ${
+                                    !item.link || item.link === "#" ? "cursor-not-allowed" : ""
+                                  }`}
+                                  disabled={!item.link || item.link === "#"}>
                                 <img src={require("../assets/preview.png")} className="h-[25px]" alt="preview icon" />
                                 Preview
                             </button>
